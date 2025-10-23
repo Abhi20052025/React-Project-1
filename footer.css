@@ -1,0 +1,46 @@
+/* Footer general styling */
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+/* Social media icon styling */
+.social-icons a {
+  color: #333;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Navigation and info links styling */
+ul.list-unstyled li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+ul.list-unstyled li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Make text responsive and centered on small screens */
+@media (max-width: 767.98px) {
+  .footer h2, .footer h3 {
+    text-align: center;
+  }
+
+  .footer p, .footer ul {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    display: flex;
+  }
+}

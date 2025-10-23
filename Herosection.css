@@ -1,0 +1,77 @@
+/* HeroSection.css */
+
+.hero-section {
+  background-image: url('src/assets/Shopnoo/shopnoo.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  color: rgb(35, 211, 29);
+  text-shadow: 0 1px 3px rgba(177, 179, 80, 0.7);
+  text-align: center;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero-section h2 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: slideInFromTop 1s ease-out forwards;
+}
+
+.hero-section p {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.hero-section button {
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  background-color: #ffffff;
+  color: #1c1c1c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 1s;
+}
+
+.hero-section button:hover {
+  transform: scale(1.05);
+  background-color: #e9f7ef;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
