@@ -1,0 +1,84 @@
+/* src/pages/shop.css */
+
+.shop-container {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.shop-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category-card {
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+
+.category-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 12px 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* 🎨 Background images for each category */
+.bg-cat1 {
+  background-image: url('src/assets/Shopnoo Piture/man.jpg');
+}
+
+.bg-cat2 {
+  background-image: url('src/assets/Shopnoo Piture/women.jpg');
+}
+
+.bg-cat3 {
+  background-image: url('src/assets/Shopnoo Piture/Electronic.webp');
+}
+
+.bg-cat4 {
+  background-image: url('src/assets/Shopnoo Piture/glasses.jpg');
+}
+
+.bg-cat5 {
+  background-image: url('src/assets/Shopnoo Piture/shoes.webp');
+}
+
+.bg-cat6 {
+  background-image: url('src/assets/Shopnoo Piture/bages.webp');
+}
+.bg-cat7 {
+  background-image: url('src/assets/Shopnoo Piture/grossery.jpeg');  
+}
+.bg-cat8 {
+  background-image: url('src/assets/Shopnoo Piture/Sports.jpg');  
+}
+
