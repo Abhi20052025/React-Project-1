@@ -32,7 +32,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/shopnoo.git
+git clone https://github.com/Abhi20052025/React-Project-1/tree/main
 
 
 Install dependencies:
