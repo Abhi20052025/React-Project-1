@@ -62,7 +62,7 @@ function AutoLayoutSizingExample() {
             <li><a href="#">Delivery</a></li>
             <li><a href="#">Return Policy</a></li>
             <li><a href="#">Team</a></li>
-            <li><a href="#">Store Location</a></li>
+            <li><a href="#">Store Address</a></li>
             <li><a href="#">F.A.Qs</a></li>
           </ul>
         </Col>
