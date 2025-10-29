@@ -46,7 +46,7 @@ Start the development server:
 npm start
 
 
-The app should open automatically at http://Abhi20052025.
+The app should open automatically at http://localhost:5173/.
 
 Usage
 
